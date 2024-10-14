@@ -35,4 +35,5 @@ atlanta <-
 	select(geoid:state, estimate_median_age, pct_bachelor, pct_veteran, geometry) %>%
 	mutate(pct_bachelor = ifelse(is.infinite(pct_bachelor), 0, pct_bachelor),
 		   pct_veteran = ifelse(is.infinite(pct_veteran), 0, pct_veteran))
-usethis::use_data(atlanta, overwrite = TRUE)
+#usethis::use_data(atlanta, overwrite = TRUE)
+save(atlanta, file = "data/atlanta.rda", compress = "bzip2")

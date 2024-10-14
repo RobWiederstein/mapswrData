@@ -14,3 +14,8 @@ You can install the development version of mapswrData like so:
 remotes::install_github("RobWiederstein/mapswrData")
 ```
 
+## Data Packages
+
+- [spData](https://github.com/Nowosad/spData)
+- [tsibbleData](https://github.com/tidyverts/tsibbledata)
+
