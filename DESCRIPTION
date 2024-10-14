@@ -3,7 +3,7 @@ Type: Package
 Title: Data for the website "Making Maps with R"
 Version: 0.1.0
 Author: Rob Wiederstein
-Maintainer: Rob Wiederstein
+Maintainer: Rob Wiederstein <khuon68@gmail.com>
 Description: The package centralizes various datasets used in the website.
 License: MIT + file LICENSE
 Encoding: UTF-8

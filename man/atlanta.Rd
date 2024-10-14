@@ -29,7 +29,6 @@ A dataset containing U.S. census data on the Atlanta MSA in 2020 at the "tract" 
 if (requireNamespace("sf", quietly = TRUE)) {
   library(sf)
   data(atlanta)
-
   plot(atlanta["estimate_median_age"])
   }
 }
