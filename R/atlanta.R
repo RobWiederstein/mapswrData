@@ -1,6 +1,6 @@
 #' Census Data on Atlanta MSA in 2020
 #'
-#' A dataset containing U.S. census data on the Atlanta MSA.
+#' A dataset containing U.S. census data on the Atlanta MSA with tract polygons
 #'
 #' @format A simple feature collection with 1,006 rows and 8 columns:
 #' \describe{
@@ -13,11 +13,12 @@
 #'   \item{pct_veteran}{percent of population that are veterans}
 #' }
 #'
-#' @details A dataset containing U.S. census data on the Atlanta MSA in 2020 at the "tract" level. The Atlanta MSA, as of publication, was comprised of five counties: Fulton, DeKalb, Cobb, Gwinnett, and Clayton. While the Census Bureau publishes a margin of error ("moe") for each estimate, this dataset only includes the point estimate.
+#' @details A dataset containing U.S. census data on the Atlanta MSA in 2020 at the "tract" level. The Atlanta MSA, as of publication, was comprised of five counties: Fulton, DeKalb, Cobb, Gwinnett, and Clayton. While the Census Bureau publishes a margin of error ("moe") for each estimate, this dataset only includes the point estimate. Data were retrieved from the U.S. Census Bureau's API using the `tidycensus` package.
+#'
+#' @references U.S. Census Bureau (2015-2020). American Community Survey 5-year Estimates.
 #'
 #' @examples
 #' if (requireNamespace("sf", quietly = TRUE)) {
-#'   library(sf)
 #'   data(atlanta)
 #'   plot(atlanta["estimate_median_age"])
 #'   }

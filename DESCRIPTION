@@ -1,10 +1,10 @@
 Package: mapswrData
 Type: Package
-Title: Data for the website "Making Maps with R"
+Title: Datasets for "Making Maps with R"
 Version: 0.1.0
 Author: Rob Wiederstein
 Maintainer: Rob Wiederstein <khuon68@gmail.com>
-Description: The package centralizes various datasets used in the website.
+Description: The package centralizes various datasets used in the website "Making Maps with R". The goal was to simplify the loading of packages when creating the website and to document the source and creators of the data.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -12,6 +12,7 @@ RoxygenNote: 7.3.2
 Depends: 
     R (>= 2.10)
 Suggests: 
+    dplyr,
     sf
 URL: https://github.com/RobWiederstein/mapswrData
 BugReports: https://github.com/RobWiederstein/mapswrData/issues
