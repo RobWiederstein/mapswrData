@@ -24,7 +24,7 @@
 #' @examples
 #'
 #' if (requireNamespace("dplyr", quietly = TRUE)) {
-#'   library(dplyr, warn.conflicts = F, quietly = TRUE)
+#'   library(dplyr, warn.conflicts = FALSE, quietly = TRUE)
 #'   data(flights)
 #'   glimpse(flights)
 #' }
