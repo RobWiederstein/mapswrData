@@ -1,6 +1,6 @@
-#' Census Data on Atlanta MSA in 2020
+#' Census data on the Atlanta MSA in 2020
 #'
-#' A dataset containing U.S. census data on the Atlanta MSA with tract polygons
+#' A dataset containing U.S. census data on the Atlanta MSA with tract polygons.
 #'
 #' @format A simple feature collection with 1,006 rows and 8 columns:
 #' \describe{

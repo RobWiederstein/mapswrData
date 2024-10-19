@@ -3,7 +3,7 @@
 \docType{data}
 \name{flights}
 \alias{flights}
-\title{Flights of U.S. Domestic Airlines February 2011}
+\title{Flights of U.S. domestic airlines February 2011}
 \format{
 A data frame with 178 rows and 9 columns:
 \describe{

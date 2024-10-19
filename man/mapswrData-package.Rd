@@ -6,12 +6,15 @@
 \alias{mapswrData-package}
 \title{mapswrData: Datasets for "Making Maps with R"}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 The package centralizes various datasets used in the website "Making Maps with R". The goal was to simplify the loading of packages when creating the website and to document the source and creators of the data.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/RobWiederstein/mapswrData}
+  \item \url{https://github.com/RobWiederstein/mapswrData/index.html}
+  \item \url{https://github.com/RobWiederstein/mapswrData/}
   \item Report bugs at \url{https://github.com/RobWiederstein/mapswrData/issues}
 }
 

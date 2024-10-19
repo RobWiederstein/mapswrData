@@ -3,7 +3,7 @@
 \docType{data}
 \name{atlanta}
 \alias{atlanta}
-\title{Census Data on Atlanta MSA in 2020}
+\title{Census data on the Atlanta MSA in 2020}
 \format{
 A simple feature collection with 1,006 rows and 8 columns:
 \describe{
@@ -20,7 +20,7 @@ A simple feature collection with 1,006 rows and 8 columns:
 atlanta
 }
 \description{
-A dataset containing U.S. census data on the Atlanta MSA with tract polygons
+A dataset containing U.S. census data on the Atlanta MSA with tract polygons.
 }
 \details{
 A dataset containing U.S. census data on the Atlanta MSA in 2020 at the "tract" level. The Atlanta MSA, as of publication, was comprised of five counties: Fulton, DeKalb, Cobb, Gwinnett, and Clayton. While the Census Bureau publishes a margin of error ("moe") for each estimate, this dataset only includes the point estimate. Data were retrieved from the U.S. Census Bureau's API using the `tidycensus` package.

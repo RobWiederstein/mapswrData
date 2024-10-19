@@ -1,4 +1,4 @@
-#' Flights of U.S. Domestic Airlines February 2011
+#' Flights of U.S. domestic airlines February 2011
 #'
 #' A dataset containing map coordinates from the departures and arrivals at U.S. airports in February of 2011.
 #'
@@ -30,3 +30,6 @@
 #' }
 #'
 "flights"
+
+
+

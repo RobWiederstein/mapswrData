@@ -1,5 +1,6 @@
 
-# mapswrData
+# mapswrData <img src="man/figures/logo.png" align="right" alt="" width="120" />
+
 
 <!-- badges: start -->
 <!-- badges: end -->
