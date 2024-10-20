@@ -23,7 +23,7 @@ development:
 
 reference:
   - title: Datasets
-    desc: 'These datasets support the website "Making Maps with R." These datasets have a spatial/location component to them in that they can be located on a map. These objects are either of `sf` class or can be converted to it. `sf` or simple features is a standard for encoding spatial vector data. While 18 geometry types are supported, only seven are used in practice: polygons, lines, points and their "multi" combinations.'
+    desc: 'The website "Making Maps with R" uses the datasets within this package. These datasets have a spatial/location component in that they can be located on a map. These objects are either of `sf` class or can be converted to it. `sf` is a package and abbreviation for "simple features." It is the standard for encoding spatial vector data. While 18 geometry types are supported, only seven are used in practice: polygons, lines, points and their "multi" combinations.'
 
   - title: Polygons
     contents:
@@ -36,4 +36,6 @@ reference:
     - white_shark
 
   - title: Points
+    contents:
+    - red_tide
 

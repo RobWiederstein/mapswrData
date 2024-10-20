@@ -7,15 +7,15 @@
 \format{
 A data frame with 178 rows and 9 columns:
 \describe{
-   \item{start_lat}{latitude of the departing airport}
-   \item{start_lon}{longitude of the departing airport}
-   \item{end_lat}{latitude at the arriving airport}
-   \item{end_lon}{longitude at the arriving airport}
-   \item{airline}{airline code}
-   \item{airport1}{three letter abbreviation for departing airport}
-   \item{airport2}{three letter abbreviation for arriving airport}
-   \item{cnt}{number of flights}
-   \item{info}{html label for origin and destination of flight}
+\item{start_lat}{latitude of the departing airport}
+\item{start_lon}{longitude of the departing airport}
+\item{end_lat}{latitude at the arriving airport}
+\item{end_lon}{longitude at the arriving airport}
+\item{airline}{airline code}
+\item{airport1}{three letter abbreviation for departing airport}
+\item{airport2}{three letter abbreviation for arriving airport}
+\item{cnt}{number of flights}
+\item{info}{html label for origin and destination of flight}
 }
 }
 \source{
@@ -28,7 +28,7 @@ flights
 A dataset containing map coordinates from the departures and arrivals at U.S. airports in February of 2011.
 }
 \details{
-This dataset is the illustrative dataset for the `mapdeck` package and was ported from the `plotly` GitHub account. To avoid the creation of a dependency and  a possible broken link, the dataset was preserved here.  The original source was provided under an MIT license.
+This dataset is the illustrative dataset for the \code{mapdeck} package and was ported from the \code{plotly} GitHub account. To avoid the creation of a dependency and  a possible broken link, the dataset was preserved here.  The original source was provided under an MIT license.
 }
 \examples{
 
