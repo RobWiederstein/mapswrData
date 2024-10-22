@@ -22,6 +22,6 @@
 #'
 #' @references Santana-Morales, O., Hoyos-Padilla, E. M., Medellín-Ortíz, A., Sepulveda, C., Beas-Luna, R., Aquino-Baleytó, M., ... & Castillo-Géniz, J. L. (2021). How much is too much? A carrying capacity study of white shark cage diving in Guadalupe Island, Mexico. Marine Policy, 131, 104588.
 #' @examples
-#' data(white_shark)
+#' white_shark
 "white_shark"
 
