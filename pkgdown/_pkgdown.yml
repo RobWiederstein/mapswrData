@@ -1,0 +1,42 @@
+url: https://robwiederstein.github.io/mapswrData/
+
+home:
+  title: Maps with R Data
+
+authors:
+  Rob Wiederstein:
+    href: https://robwiederstein.org
+
+
+template:
+  bslib:
+    version: 5
+    bootswatch: sandstone
+    base_font: {google: "Atkinson Hyperlegible"}
+    code_font: {google: "Roboto Mono"}
+    border-radius: 0.5rem
+    btn-border-radius: 0.25rem
+    font-size-base: 1.1rem
+
+development:
+  mode: auto
+
+reference:
+  - title: Datasets
+    desc: 'The website "Making Maps with R" uses the datasets within this package. These datasets have a spatial/location component in that they can be located on a map. These objects are either of `sf` class or can be converted to it. `sf` is a package and abbreviation for "simple features." It is the standard for encoding spatial vector data. While 18 geometry types are supported, only seven are used in practice: polygons, lines, points and their "multi" combinations.'
+
+  - title: Polygons
+    contents:
+    - atlanta
+
+  - title: Lines
+    contents:
+    - blue_riband
+    - flights
+    - white_shark
+
+  - title: Points
+    contents:
+    - homicides
+    - red_tide
+
