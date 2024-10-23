@@ -12,8 +12,8 @@ a dataframe with 135 rows and 7 variables:
 \item{incident_code}{incident code}
 \item{incident_category}{incident category}
 \item{incident_subcategory}{incident subcategory}
-\item{latitude}{latitude}
-\item{longitude}{longitude}
+\item{lat}{latitude}
+\item{lon}{longitude}
 }
 }
 \source{
@@ -24,7 +24,10 @@ Published under a Open Data Commons Public Domain Dedication and License v1.0 (P
 homicides
 }
 \description{
-description is taken from the next paragraph. It’s shown at the top of documentation and should briefly describe the most important features of the function
+Homicides in San Francisco, California, 2018 - 2023.
+}
+\details{
+For city-level crime data, municipalities, particularly large ones, often provide the data via an open data portal.  Here, the data were discovered in the \href{https://datasf.org/opendata/}{San Francisco Open Data Portal}.  Most crime data is reported on the Uniform Crime Reports and submitted to the Federal Bureau of Investigation.  You can investigate and learn more about crime in the United States via the FBI's \href{https://crime-data-explorer.fr.cloud.gov/}{Crime Data Explorer}.  Murder is usually grouped with non-negligent manslaughter in counting homicides.  For that reason, the "incident_subcategory" was included.
 }
 \examples{
 homicides

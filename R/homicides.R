@@ -1,6 +1,6 @@
 #' @title Homicides in San Francisco 2018 - 2023
 #'
-#' @description  description is taken from the next paragraph. It’s shown at the top of documentation and should briefly describe the most important features of the function
+#' @description  Homicides in San Francisco, California, 2018 - 2023.
 #'
 #'
 #' @format a dataframe with 135 rows and 7 variables:
@@ -10,9 +10,11 @@
 #'   \item{incident_code}{incident code}
 #'   \item{incident_category}{incident category}
 #'   \item{incident_subcategory}{incident subcategory}
-#'   \item{latitude}{latitude}
-#'   \item{longitude}{longitude}
+#'   \item{lat}{latitude}
+#'   \item{lon}{longitude}
 #' }
+#'
+#' @details For city-level crime data, municipalities, particularly large ones, often provide the data via an open data portal.  Here, the data were discovered in the [San Francisco Open Data Portal](https://datasf.org/opendata/).  Most crime data is reported on the Uniform Crime Reports and submitted to the Federal Bureau of Investigation.  You can investigate and learn more about crime in the United States via the FBI's [Crime Data Explorer](https://crime-data-explorer.fr.cloud.gov/).  Murder is usually grouped with non-negligent manslaughter in counting homicides.  For that reason, the "incident_subcategory" was included.
 #'
 #' @source  https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783/data_preview
 #' Published under a Open Data Commons Public Domain Dedication and License v1.0 (PDDL).

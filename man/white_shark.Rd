@@ -32,7 +32,7 @@ A dataset containing coordinates for 10 great white sharks near Guadulope Island
 Guadulope Island, off the coast of Mexico, is renown for its ecotourism around great white shark cage diving. The data was included because of the \code{depth} variable. The original dataset was +28,000k observations with the tracking device giving a reading nearly 20 times a minute.  Here, the data were summarized to the hour.
 }
 \examples{
-data(white_shark)
+white_shark
 }
 \references{
 Santana-Morales, O., Hoyos-Padilla, E. M., Medellín-Ortíz, A., Sepulveda, C., Beas-Luna, R., Aquino-Baleytó, M., ... & Castillo-Géniz, J. L. (2021). How much is too much? A carrying capacity study of white shark cage diving in Guadalupe Island, Mexico. Marine Policy, 131, 104588.
