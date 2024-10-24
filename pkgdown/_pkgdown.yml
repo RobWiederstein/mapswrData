@@ -28,10 +28,12 @@ reference:
   - title: Polygons
     contents:
     - atlanta
+    - life_exp
 
   - title: Lines
     contents:
     - blue_riband
+    - commuters
     - flights
     - white_shark
 
