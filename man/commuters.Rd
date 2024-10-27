@@ -8,7 +8,16 @@
 A data frame with 97 rows and 10 columns
 
 \describe{
-\item{one}{one}
+\item{from_state_fips_code}{a two character FIPS code for the state of origin}
+\item{from_county_fips_code}{a three character FIPS cdoe for the state of destination}
+\item{from_state_name}{the full name for the state of origin}
+\item{from_county_name}{a two character FIPS code for the county of origin}
+\item{to_state_fips_code}{a two character FIPS code for the state of destination}
+\item{to_county_fips_code}{a three character FIPS code for the county of destination}
+\item{to_state_name}{the full name for the state of destination}
+\item{to_county_name}{a three character FIPS code for the county of destination}
+\item{workers_in_commuting_flow}{the number of workers commuting}
+\item{margin_of_error}{margin of error}
 }
 }
 \source{

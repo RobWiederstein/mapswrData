@@ -43,8 +43,35 @@
     <div class="section level2">
     <h2 id="format">Format<a class="anchor" aria-label="anchor" href="#format"></a></h2>
     <p>A data frame with 97 rows and 10 columns</p>
-<dl><dt>one</dt>
-<dd><p>one</p></dd>
+<dl><dt>from_state_fips_code</dt>
+<dd><p>a two character FIPS code for the state of origin</p></dd>
+
+<dt>from_county_fips_code</dt>
+<dd><p>a three character FIPS cdoe for the state of destination</p></dd>
+
+<dt>from_state_name</dt>
+<dd><p>the full name for the state of origin</p></dd>
+
+<dt>from_county_name</dt>
+<dd><p>a two character FIPS code for the county of origin</p></dd>
+
+<dt>to_state_fips_code</dt>
+<dd><p>a two character FIPS code for the state of destination</p></dd>
+
+<dt>to_county_fips_code</dt>
+<dd><p>a three character FIPS code for the county of destination</p></dd>
+
+<dt>to_state_name</dt>
+<dd><p>the full name for the state of destination</p></dd>
+
+<dt>to_county_name</dt>
+<dd><p>a three character FIPS code for the county of destination</p></dd>
+
+<dt>workers_in_commuting_flow</dt>
+<dd><p>the number of workers commuting</p></dd>
+
+<dt>margin_of_error</dt>
+<dd><p>margin of error</p></dd>
 
 
 </dl></div>
@@ -64,7 +91,7 @@
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="va">commuters</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 97 × 10</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 96 × 10</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>    from_state_fips_code from_county_fips_code from_state_name   from_county_name</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>                 <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>             <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>           </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> 06                   037                   California        Los Angeles Cou…</span>
@@ -77,7 +104,7 @@
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 8</span> 11                   001                   District of Colu… District of Col…</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 9</span> 11                   001                   District of Colu… District of Col…</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">10</span> 11                   001                   District of Colu… District of Col…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 87 more rows</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 86 more rows</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># ℹ 6 more variables: to_state_fips_code &lt;chr&gt;, to_county_fips_code &lt;chr&gt;,</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   to_state_name &lt;chr&gt;, to_county_name &lt;chr&gt;, workers_in_commuting_flow &lt;dbl&gt;,</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;">#   margin_of_error &lt;dbl&gt;</span></span>
