@@ -1,0 +1,20 @@
+#' @title Capital bikeshare rides September 2024
+#'
+#' @description  Capital bikeshare rides within Washington D.C. for September 2024
+#'
+#' @details additional details or explanation
+#'
+#' @format a dataframe of 60,322 rows and three variables:
+#' \describe{
+#'   \item{origin}{the station where the bike ride began}
+#'   \item{dest}{the station where the bike ride ended}
+#'   \item{count}{the number of rides between origin and dest}
+#'}
+#'
+#' @source  https://s3.amazonaws.com/capitalbikeshare-data/index.html According to the [license](https://ride.capitalbikeshare.com/data-license-agreement) Bikeshare hereby grants to you a non-exclusive, royalty-free, limited, perpetual license to access, reproduce, analyze, copy, modify, distribute in your product or service and use the Data for any lawful purpose
+#'
+#' @references Lyft Bikes and Scooters, LLC (2020). Capital Bikeshare System Data. Last accessed October 26, 2024.
+#'
+#' @examples
+#' bkshr_flows
+"bkshr_flows"

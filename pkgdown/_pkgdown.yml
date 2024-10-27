@@ -42,3 +42,11 @@ reference:
     - homicides
     - red_tide
 
+  - title: Flows
+    contents:
+    - bkshr_flows
+    - bkshr_sites
+    - txpyr_flows
+    - txpyr_sites
+
+
