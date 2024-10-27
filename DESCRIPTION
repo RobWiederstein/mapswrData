@@ -15,5 +15,5 @@ Depends:
 Suggests: 
     dplyr,
     sf
-URL: https://github.com/RobWiederstein/mapswrData/index.html, https://github.com/RobWiederstein/mapswrData/
+URL: https://robwiederstein.github.io/mapswrData/, https://github.com/RobWiederstein/mapswrData/
 BugReports: https://github.com/RobWiederstein/mapswrData/issues

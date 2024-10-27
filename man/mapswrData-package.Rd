@@ -13,7 +13,7 @@ The package centralizes various datasets used in the website "Making Maps with R
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/RobWiederstein/mapswrData/index.html}
+  \item \url{https://robwiederstein.github.io/mapswrData/}
   \item \url{https://github.com/RobWiederstein/mapswrData/}
   \item Report bugs at \url{https://github.com/RobWiederstein/mapswrData/issues}
 }
