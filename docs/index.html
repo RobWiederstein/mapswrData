@@ -61,15 +61,29 @@
 </div>
 <!-- badges: start -->
 <!-- badges: end -->
-<p>The goal of mapswrData is to provide datasets for the <code>mapswr</code> website.</p>
+<p>The goal of <code>mapswrData</code> is to provide engaging spatial datasets to aid map making and illustrate key concepts. Most, but not all, datasets support the website <code>mapswR</code>.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
 <p>You can install the development version of mapswrData like so:</p>
-<pre><code><span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"RobWiederstein/mapswrData"</span><span class="op">)</span></span></code></pre>
+<pre><code><span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"RobWiederstein/mapswrData"</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># or</span></span>
+<span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"RobWiederstein/mapswrData"</span><span class="op">)</span></span></code></pre>
 </div>
 <div class="section level2">
-<h2 id="data-packages">Data Packages<a class="anchor" aria-label="anchor" href="#data-packages"></a>
+<h2 id="about">About<a class="anchor" aria-label="anchor" href="#about"></a>
+</h2>
+<p>While not originally intended, many of the datasets originated from U.S. agencies like the U.S. Census Bureau and the Internal Revenue Service due to previous familiarity. Some of the datasets were included because they have become iconic in the field of visualization like <code>minard_troops</code> or <code>snow</code>. Others were included because of their historical significance like Amelia Earhart’s attempted circumnavigation of the globe in <code>earhart</code>. And where possible, the speediest incorporation was used meaning that a number of datasets are simply ported from other packages, but only where it was permitted by license. All of the datasets were chosen with a keen eye on file size. The temptation was to stuff the package with large datasets for glorious maps, yet slow load times bog down the most committed students. (I use “student” here not in the context of school enrollment, but as a lifelong learner committed to insight). Users might follow the source information for more complete datasets.</p>
+</div>
+<div class="section level2">
+<h2 id="acknowledgements">Acknowledgements<a class="anchor" aria-label="anchor" href="#acknowledgements"></a>
+</h2>
+<p>Two sources are deserving of special acknowledgement <a href="https://jakubnowosad.com/spData/" class="external-link">spData</a> and <a href="https://vincentarelbundock.github.io/Rdatasets" class="external-link">Rdatasets</a>. I’m indebted to the authors of these packages for their work.</p>
+</div>
+<div class="section level2">
+<h2 id="models">Models<a class="anchor" aria-label="anchor" href="#models"></a>
 </h2>
 <ul>
 <li><a href="https://github.com/Nowosad/spData" class="external-link">spData</a></li>
