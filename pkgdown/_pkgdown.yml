@@ -14,9 +14,11 @@ template:
     bootswatch: sandstone
     base_font: {google: "Atkinson Hyperlegible"}
     code_font: {google: "Roboto Mono"}
+    heading_font: {google: "Atkinson Hyperlegible"}
     border-radius: 0.5rem
     btn-border-radius: 0.25rem
     font-size-base: 1.1rem
+    primary: "#435373"
 
 development:
   mode: auto
@@ -29,6 +31,7 @@ reference:
     contents:
     - atlanta
     - life_exp
+    - nz_business
 
   - title: Lines
     contents:
